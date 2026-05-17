@@ -16,6 +16,7 @@ Repository ini berisi proyek analisis data Spotify menggunakan **Python** untuk 
 ## 📁 Struktur Proyek
 * `import_spotify.py` : Script Python untuk membaca file CSV, membersihkan tipe data kolom, dan melakukan migrasi data secara otomatis ke database MySQL.
 * `query_analisis.sql` : Kumpulan query SQL untuk analisis data terpopuler, analisis karakteristik lagu (BPM), dan segmentasi pasar.
+* `grafik.py` : Script Python untuk membuat visualisasi data tren industri musik.
 * `README.md` : Dokumentasi lengkap hasil analisis proyek.
 
 ---
