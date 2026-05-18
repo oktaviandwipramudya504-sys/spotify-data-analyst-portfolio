@@ -1,10 +1,10 @@
-# Spotify Most Streamed Songs Analysis 🎵📊
+# Spotify Most Streamed Songs Analysis 
 
 Repository ini berisi proyek analisis data Spotify menggunakan **Python** untuk proses ETL (Extract, Transform, Load) dan **MySQL/SQL** untuk pembersihan data ganda serta penarikan insight bisnis global.
 
 ---
 
-## 🛠️ Tech Stack & Tools Used
+##  Tech Stack & Tools Used
 * **Language:** Python 3.x
 * **Libraries:** Pandas, MySQL Connector
 * **Database:** MySQL (XAMPP / phpMyAdmin)
@@ -13,7 +13,7 @@ Repository ini berisi proyek analisis data Spotify menggunakan **Python** untuk 
 
 ---
 
-## 📁 Struktur Proyek
+##  Struktur Proyek
 * `import_spotify.py` : Script Python untuk membaca file CSV, membersihkan tipe data kolom, dan melakukan migrasi data secara otomatis ke database MySQL.
 * `query_analisis.sql` : Kumpulan query SQL untuk analisis data terpopuler, analisis karakteristik lagu (BPM), dan segmentasi pasar.
 * `grafik.py` : Script Python untuk membuat visualisasi data tren industri musik.
@@ -21,7 +21,7 @@ Repository ini berisi proyek analisis data Spotify menggunakan **Python** untuk 
 
 ---
 
-## 🚀 Siklus Eksekusi Proyek (Pipeline)
+##  Siklus Eksekusi Proyek (Pipeline)
 
 ### 1. Database Setup
 Membuat database bernama `db_spotify_baru` dan struktur tabel `tabel_lagu` di phpMyAdmin untuk menampung data mentah.
